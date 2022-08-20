@@ -3,11 +3,16 @@
 }
 
 .App-logo {
-	max-width: 180px;
+	max-width: 220px;
+	border-radius: 18px;
+	box-shadow: 3px 3px 20px 5px rgb(243, 231, 233);
 	display: block;
 	margin: 0 auto;
 }
 
-.App-footer {
-	margin: 30px 0;
+.App footer {
+	color: #f70ca9;
+	font-size: small;
+	text-align: center;
+	margin: 20px 0;
 }
