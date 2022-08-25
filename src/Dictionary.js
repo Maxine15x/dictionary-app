@@ -7,26 +7,36 @@ export default function Dictionary() {
 	let [keyword, setKeyword] = useState("");
 	let [results, setResults] = useState(null);
 
-	function handleKeyword(event) {
-		setKeyword(event.target.value);
-	}
-
 	function handleResponse(response) {
 		setResults(response.data[0]);
 	}
 
-	function search(event) {
-		event.preventDefault();
+	function search() {
+		// documentation: https://dictionaryapi.dev/e
+		let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
 
-		// documentation: https://dictionaryapi.dev/
-		let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
 		axios.get(apiUrl).then(handleResponse);
+	}
+
+	function handleSubmit(event) {
+		event.preventDefault();
+		search();
+	}
+
+	function handleKeyword(event) {
+		setKeyword(event.target.value);
 	}
 
 	return (
 		<div className="Dictionary">
-			<form onSubmit={search}>
-				<input type="search" onChange={handleKeyword} />
+			<form onSubmit={handleSubmit}>
+				<input
+					className="form-control"
+					type="search"
+					placeholder="Search dictionary word..."
+					autoFocus={true}
+					onChange={handleKeyword}
+				/>
 			</form>
 			<Results results={results} />
 		</div>
