@@ -1,18 +1,29 @@
+body {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans";
+}
+
+a {
+	color: #d394be;
+}
+
 .App-header {
-	margin: 20px 0;
+	margin: 16px 0;
 }
 
 .App-logo {
-	max-width: 220px;
-	border-radius: 18px;
-	box-shadow: 3px 3px 20px 5px rgb(243, 231, 233);
+	max-width: 230px;
+	border-radius: 80px;
+	box-shadow: 3px 3px 15px 3px rgb(243, 231, 233);
 	display: block;
 	margin: 0 auto;
+	padding: 20px;
 }
 
 .App footer {
-	color: #f70ca9;
+	color: #384f82;
 	font-size: small;
+	font-weight: bold;
 	text-align: center;
 	margin: 20px 0;
 }

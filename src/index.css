@@ -1,4 +1,6 @@
 body {
-	color: #0b4d78;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #626b55;
+	margin: 0;
+	background-size: 100%;
+	background-image: url("book.png");
 }
