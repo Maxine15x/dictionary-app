@@ -1,10 +1,14 @@
 body {
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans";
+	font-family: "Handlee", cursive;
 }
 
 a {
-	color: #d394be;
+	color: #c87caf;
+}
+
+.App {
+	width: 75%;
+	margin: 0 auto;
 }
 
 .App-header {
@@ -12,18 +16,19 @@ a {
 }
 
 .App-logo {
-	max-width: 230px;
+	max-width: 350px;
 	border-radius: 80px;
-	box-shadow: 3px 3px 15px 3px rgb(243, 231, 233);
+	box-shadow: 5px 5px 15px 5px rgb(243, 231, 233);
 	display: block;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 8px;
+	opacity: 0.8;
 }
 
 .App footer {
 	color: #384f82;
 	font-size: small;
-	font-weight: bold;
+	font-weight: bolder;
 	text-align: center;
-	margin: 20px 0;
+	margin: 10px 0;
 }

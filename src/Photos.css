@@ -1,0 +1,5 @@
+.Photos img {
+  border-radius: 5px;
+  margin: 6px auto;
+  box-shadow: 5px 5px 16px rgb(171, 153, 156);
+}
