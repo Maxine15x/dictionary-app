@@ -13,7 +13,24 @@ export default function App() {
 					<Dictionary defaultKeyword="book" />
 				</main>
 				<footer>
-					<small>Coded by Maxine Martinez</small>
+					<small>
+						This project was coded by Maxine Martinez, and is{" "}
+						<a
+							href="https://github.com/Maxine15x/dictionary-app"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Open-sourced on GitHub
+						</a>{" "}
+						and{" "}
+						<a
+							href="https://dictionary-project-app.netlify.app/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							hosted on Netlify
+						</a>
+					</small>
 				</footer>
 			</div>
 		</div>
