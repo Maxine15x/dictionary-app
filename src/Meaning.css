@@ -1,17 +1,17 @@
 .Meaning {
-  margin: 0 auto;
-  padding: 8px;
+	margin: 0 auto;
+	padding: 8px;
 }
 
 .Meaning h3 {
-color: #322b2b;
-font-size: 27px;
-line-height: 1.2;
-font-weight: bold;
+	color: #322b2b;
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: bold;
 }
 
 .Meaning .example {
-  font-size: 15px;
-  opacity: 0.6;
-  font-style: italic;
+	font-size: 15px;
+	opacity: 0.6;
+	font-style: italic;
 }
